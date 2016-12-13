@@ -7,8 +7,8 @@ func main() {
 func factor(num int) int {
 	var f = 2
 
-	for (num > f) {
-		if (num % f == 0) {
+	for num > f {
+		if num%f == 0 {
 			num = num / f
 			f = 2
 		} else {
